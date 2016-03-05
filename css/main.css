@@ -499,24 +499,38 @@ table {
     width: 100%;
     overflow: hidden;
 }
-
-
-
+}
 
 @media screen and (max-width: 1025px) {
-}
-@media screen and (max-width: 768px) {
+  #mybutt{position: relative;}
 
-.thumbnail{max-height: 500px;}
+
+.item{
+  position: relative;
+  height: auto;
+}
+
+}
+@media screen and (max-width: 769px) {
+
+.item{
+  position: absolute;
+  height: 100%;
+}
+
+  #mybutt{position: absolute;}
+
+}
+
+@media screen and (max-width: 767px) {
+
+  #mybutt{position: relative;}
+}
 
 .item{
   position: relative;
   width: 90%;
   height: auto;
- 
-}
-
-#mybutt{position: relative;}
 
 }
 td, tr, table{
