@@ -524,29 +524,26 @@ table {
 
 @media screen and (max-width: 767px) {
 
-  #mybutt{position: relative;}
-}
+
+#mybutt{position: relative;}
+
 
 .item{
   position: relative;
   width: 90%;
   height: auto;
+}
 
-}
-td, tr, table{
-  width: 100%;
-}
 
 }
 
 
 @media screen and (max-width: 520px) {
+
 #nav{
   width: 230px;
   height: 86px;
 }
-
-
 
 .manu.about{
   position: absolute;
