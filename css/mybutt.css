@@ -125,7 +125,6 @@ cursor: default;
 
 @media screen and (max-width: 1000px) {
 
-
-#mybutt{position: absolute;}
+#mybutt{position: fixed;}
 
 }
