@@ -9,6 +9,8 @@
 /*  border-top: .08em solid #444;
   border-bottom: 1px solid #444 outset;*/
 /*  opacity: 0.95;*/
+ -webkit-transition: all .5s cubic-bezier(.25,.46,.45,.94);
+    transition: all .5s cubic-bezier(.25,.46,.45,.94);
 }
 
 .mycopyright{
@@ -26,6 +28,24 @@
 cursor: default;
 }
 
+.mycontact{
+  position: absolute;
+  left: 100px;
+  top: 0;
+  width: 80px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  /*text-align: center;*/
+  /*border-right: .08em solid #444;*/
+  -webkit-transition: all 1.5s steps(25, end);
+    transition: all 1.5s steps(25, end);
+    overflow:hidden;
+    white-space: nowrap;
+cursor: default;
+}
+
+
 /*.mycopyright:hover{
   background: #444;
 }*/
@@ -34,7 +54,13 @@ cursor: default;
   text-decoration: none;
 }
 
-.mycopyright .myrightfont{
+.mycontact a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+
+.mycopyright .myrightfont, .mycontact .myrightfont{
   font-size: 8.5pt;
   vertical-align: 1.5px;
   /*line-height: 10px;*/
@@ -46,6 +72,7 @@ cursor: default;
   width: 330px;
 
 }
+
 
 .mycopyright .myrightfont .mycopyrightc{
   font-size: 8.5pt;
@@ -123,8 +150,14 @@ cursor: default;
 
 }
 
-@media screen and (max-width: 1000px) {
 
-#mybutt{position: fixed;}
+@media screen and (max-width: 520px) {
+
+#mybutt{
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
 
 }
+

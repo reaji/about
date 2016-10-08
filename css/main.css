@@ -70,12 +70,12 @@ html, body{
   display: block;
   max-width: 300px;
   width: 90%;
-  margin: 50px auto;
+  margin: 0 auto 50px;
 }
 
 #pov{
   display: block;
-  margin: 0 auto 50px;
+  margin: 0 auto 100px;
   max-width: 590px;
   line-height: 200%;
   font-weight: 200;
