@@ -44,6 +44,8 @@
 html, body{
 	margin: 0;
   height: 100%;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -67,11 +69,13 @@ html, body{
 
 
 #myself{
-  display: block;
+ /* display: block;*/
   /*max-width: 300px;*/
   width: 100%;
-  margin: 0 auto 50px;
+  margin: 0 auto 10px;
 }
+
+.yesmobile{display: none;}
 
 #pov{
   display: block;
@@ -80,6 +84,41 @@ html, body{
   line-height: 200%;
   font-weight: 200;
   padding: 0 13px;
+}
+
+#faqs{
+  display: block;
+  margin: 0 auto 100px;
+  width: 70%;
+  max-width: 750px;
+  line-height: 200%;
+  font-weight: 200;
+  padding: 0 13px;
+  text-align: center;
+}
+
+.faqslogo{
+display: inline-block;
+width: auto;
+height: 25px;
+margin: 30px 50px;
+}
+
+.faqstitle{
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #999999;
+}
+
+.question{
+margin-bottom: 16px;
+color: #333;
+font-weight: 600;
+}
+
+.answer{
+  font-weight: 400;
+  color: #666;
 }
 
 #myinfo{
@@ -110,8 +149,9 @@ html, body{
 }
 
 a{
-  text-decoration: none;
-  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+  color: blue;
 }
 
 
@@ -129,8 +169,8 @@ a{
 h1{
   font-size: 26pt;
   font-weight: 700;
-  letter-spacing: 6px;
-  margin: 0 auto;
+  /*letter-spacing: 6px;
+  margin: 0 auto;*/
 }
 
 h2{
@@ -141,10 +181,10 @@ h2{
 }
 
 h3{
-  font-size: 14pt;
+  font-size: 38px;
   font-weight: 400;
-  margin: 0 auto;
-  letter-spacing: 0.6px;
+ /* margin: 0 auto;*/
+/*  letter-spacing: 0.6px;*/
 }
 
 h4{
@@ -162,11 +202,11 @@ h6{
 }
 
 p{
-  font-size: 10pt;
-  font-weight: 400;
+  font-size: 19px;
+  font-weight: 300;
   margin: 0 auto;
-  letter-spacing: 0.5px;
-  line-height: 150%;
+/*  letter-spacing: 0.5px;
+  line-height: 150%;*/
 }
 
 
@@ -292,6 +332,32 @@ table {
   margin: 0 auto 0 auto;
 }
 
+#faqs{
+  display: block;
+  margin: 0 auto 100px;
+  width: 90%;
+  max-width: 750px;
+  line-height: 200%;
+  font-weight: 200;
+  padding: 0 13px;
+  text-align: center;
+}
+
+.faqslogo{
+  margin: 30px 30px;
+  height: 25px;
+  width: auto;
+}
+
+.question{font-size: 20pt;}
+.answer{text-align: left;font-size: 17px;}
+.notmobile{display: none;}
+.yesmobile{display: block;}
+#myself{
+  width:auto;
+  height: 400px;
+  float: right;
+}
 
 }
 

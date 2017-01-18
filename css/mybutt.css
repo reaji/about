@@ -59,6 +59,7 @@ cursor: default;
   color: black;
 }
 
+#mybutt a{ text-decoration: none; }
 
 .mycopyright .myrightfont, .mycontact .myrightfont{
   font-size: 8.5pt;
